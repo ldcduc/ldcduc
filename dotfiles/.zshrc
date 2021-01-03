@@ -104,6 +104,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 alias zshrc="vim ~/.zshrc; source ~/.zshrc; cp ~/.zshrc ~/.repos/ldcduc/dotfiles"
 alias vimrc="vim ~/.vimrc; cp ~/.vimrc ~/.repos/ldcduc/dotfiles"
+alias karabiner="vim ~/.config/karabiner/karabiner.json; cp ~/.config/karabiner/karabiner.json ~/.repos/ldcduc/dotfiles/.config/karabiner/karabiner.json"
 ## Commands
 alias cl="clear"
 ## Change dir
@@ -114,6 +115,12 @@ alias app="open /Applications"
 ## Repos
 alias ldcduc="cd ~/.repos/ldcduc"
 alias til="cd ~/.repos/today-I-learned"
+alias journal="cd ~/.repos/journal"
+alias leet="cd ~/.repos/leetcode-training"
+alias sol='bash ~/.repos/leetcode-training/create_source_code_file.sh'
+alias tutor="cd ~/Tutoring-2020"
+alias english="cd /Users/ducle/.repos/journal/Learning_Languages/English"
+alias chinese="cd /Users/ducle/.repos/journal/Learning_Languages/Chinese"
 ## Open with apps
 alias md="macdown"
 alias chrome="open -a 'Google Chrome'"
@@ -121,6 +128,13 @@ alias safari="open -a 'Safari'"
 ## Chatting
 alias shitpost="safari https://discord.com/channels/786607287074029589/786609740243009547"
 alias em="safari https://www.facebook.com/messages/t/100010143877666/"
+## Journaling
+alias love="cp ~/OneDrive/love.md ~/OneDrive/.bk_love.md; md ~/OneDrive/love.md"
+alias lovev="cp ~/OneDrive/love.md ~/OneDrive/.bk_love.md; vim ~/OneDrive/love.md"
+alias 2021="md ~/.repos/journal/my-2021.md"
+alias 2021v="vim ~/.repos/journal/my-2021.md"
+## Temporary
+alias efi="cd ~/.repos/ldcduc/hackintosh/EFI\ testing/CLOVER"
 
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.

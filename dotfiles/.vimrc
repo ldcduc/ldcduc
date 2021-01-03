@@ -42,6 +42,7 @@ colorscheme dracula
 
 " --- General settings ---
 
+" set nrformats=  " consider 00x as decimal
 set mouse=a
 set backspace=indent,eol,start
 set ruler
@@ -56,9 +57,10 @@ set lazyredraw    " redraw only when we need to --> faster macro
 set showmatch     " highlight matching [{()}]
 "
 " --- \Tab related stuffs ---
-set shiftwidth=4 " tab size = 4
-set expandtab
-set softtabstop=4
+set shiftwidth=4 softtabstop=4 expandtab
+" set shiftwidth=4 " tab size = 4
+" set softtabstop=4
+" set expandtab
 set shiftround
 
 set incsearch     " search as characters are entered
@@ -156,6 +158,7 @@ nnoremap <C-k> gt
 " Vimrc
 nnoremap <leader>ev :vsp $MYVIMRC<CR>
 nnoremap <leader>so :source $MYVIMRC<CR>
+nnoremap <leader>zv :vsp ~/.zshrc<CR>
 
 " save session
 nnoremap <leader>s :mksession<CR>
