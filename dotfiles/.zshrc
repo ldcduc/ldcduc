@@ -135,6 +135,12 @@ alias 2021="md ~/.repos/journal/my-2021.md"
 alias 2021v="vim ~/.repos/journal/my-2021.md"
 ## Temporary
 alias efi="cd ~/.repos/ldcduc/hackintosh/EFI\ testing/CLOVER"
+## Virtual environment python
+alias py="python3"
+alias py2="python2"
+alias py3="python3"
+alias bot="source ~/Library/Mobile\ Documents/com~apple~CloudDocs/bot-dev/venv/bin/activate; cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/bot-dev"
+
 
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
