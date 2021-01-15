@@ -129,8 +129,10 @@ alias safari="open -a 'Safari'"
 alias shitpost="safari https://discord.com/channels/786607287074029589/786609740243009547"
 alias em="safari https://www.facebook.com/messages/t/100010143877666/"
 ## Journaling
-alias love="cp ~/OneDrive/love.md ~/OneDrive/.bk_love.md; md ~/OneDrive/love.md"
-alias lovev="cp ~/OneDrive/love.md ~/OneDrive/.bk_love.md; vim ~/OneDrive/love.md"
+alias love="cp ~/Library/Mobile\ Documents/com~apple~CloudDocs/love.md ~/Library/Mobile\ Documents/com~apple~CloudDocs/.bk_love.md; macdown ~/Library/Mobile\ Documents/com~apple~CloudDocs/love.md; cp ~/Library/Mobile\ Documents/com~apple~CloudDocs/love.md ~/OneDrive/love.md"
+alias lovev="cp ~/Library/Mobile\ Documents/com~apple~CloudDocs/love.md ~/Library/Mobile\ Documents/com~apple~CloudDocs/.bk_love.md; vim ~/Library/Mobile\ Documents/com~apple~CloudDocs/love.md; cp ~/Library/Mobile\ Documents/com~apple~CloudDocs/love.md ~/OneDrive/love.md"
+# alias love="cp ~/OneDrive/love.md ~/OneDrive/.bk_love.md; md ~/OneDrive/love.md"
+# alias lovev="cp ~/OneDrive/love.md ~/OneDrive/.bk_love.md; vim ~/OneDrive/love.md"
 alias 2021="md ~/.repos/journal/my-2021.md"
 alias 2021v="vim ~/.repos/journal/my-2021.md"
 ## Temporary
