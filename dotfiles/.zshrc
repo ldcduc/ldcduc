@@ -142,6 +142,11 @@ alias py="python3"
 alias py2="python2"
 alias py3="python3"
 alias bot="source ~/Library/Mobile\ Documents/com~apple~CloudDocs/bot-dev/venv/bin/activate; cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/bot-dev"
+## ssh
+alias hackintosh="ssh ducle@27.64.21.204 -p 13285"
+alias hackintoshlan="ssh ducle@192.168.1.2"
+alias ubuntu="ssh jarvis@27.64.21.204 -p 13287"
+alias ubuntulan="ssh jarvis@192.168.1.8"
 
 
 
