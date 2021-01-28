@@ -147,6 +147,9 @@ alias hackintosh="ssh ducle@27.64.21.204 -p 13285"
 alias hackintoshlan="ssh ducle@192.168.1.2"
 alias ubuntu="ssh jarvis@27.64.21.204 -p 13287"
 alias ubuntulan="ssh jarvis@192.168.1.8"
+alias burp="cd ~/burp_suite_pro_v2020.11.2; java --illegal-access=permit -Dfile.encoding=utf-8 -javaagent:BurpSuiteLoader_v2020.11.2.jar -noverify -jar burpsuite_pro_v2020.11.2.jar"
+
+
 
 
 
