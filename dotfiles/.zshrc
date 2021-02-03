@@ -132,10 +132,12 @@ alias em="safari https://www.facebook.com/messages/t/100010143877666/"
 ## Journaling
 alias love="cp ~/Library/Mobile\ Documents/com~apple~CloudDocs/love.md ~/Library/Mobile\ Documents/com~apple~CloudDocs/.bk_love.md; macdown ~/Library/Mobile\ Documents/com~apple~CloudDocs/love.md; cp ~/Library/Mobile\ Documents/com~apple~CloudDocs/love.md ~/OneDrive/love.md"
 alias lovev="cp ~/Library/Mobile\ Documents/com~apple~CloudDocs/love.md ~/Library/Mobile\ Documents/com~apple~CloudDocs/.bk_love.md; vim ~/Library/Mobile\ Documents/com~apple~CloudDocs/love.md; cp ~/Library/Mobile\ Documents/com~apple~CloudDocs/love.md ~/OneDrive/love.md"
-# alias love="cp ~/OneDrive/love.md ~/OneDrive/.bk_love.md; md ~/OneDrive/love.md"
+alias lovevs="cp ~/Library/Mobile\ Documents/com~apple~CloudDocs/love.md ~/Library/Mobile\ Documents/com~apple~CloudDocs/.bk_love.md; open -a 'Visual Studio Code' ~/Library/Mobile\ Documents/com~apple~CloudDocs/love.md; cp ~/Library/Mobile\ Documents/com~apple~CloudDocs/love.md ~/OneDrive/love.md"
+# alias love="cp ~/OneDrive/love.md ~/OneDrive/.bk_love.md; macdown ~/OneDrive/love.md"
 # alias lovev="cp ~/OneDrive/love.md ~/OneDrive/.bk_love.md; vim ~/OneDrive/love.md"
-alias 2021="md ~/.repos/journal/my-2021.md"
+alias 2021="macdown ~/.repos/journal/my-2021.md"
 alias 2021v="vim ~/.repos/journal/my-2021.md"
+alias 2021vs="open -a 'Visual Studio Code' ~/.repos/journal/my-2021.md"
 ## Temporary
 alias efi="cd ~/.repos/ldcduc/hackintosh/EFI\ testing/CLOVER"
 ## Virtual environment python
