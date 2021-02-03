@@ -105,6 +105,7 @@ source $ZSH/oh-my-zsh.sh
 alias zshrc="vim ~/.zshrc; source ~/.zshrc; cp ~/.zshrc ~/.repos/ldcduc/dotfiles"
 alias vimrc="vim ~/.vimrc; cp ~/.vimrc ~/.repos/ldcduc/dotfiles"
 alias karabiner="vim ~/.config/karabiner/karabiner.json; cp ~/.config/karabiner/karabiner.json ~/.repos/ldcduc/dotfiles/.config/karabiner/karabiner.json"
+alias etchosts="sudo vim /etc/hosts"
 ## Commands
 alias cl="clear"
 ## Change dir
@@ -143,10 +144,10 @@ alias py2="python2"
 alias py3="python3"
 alias bot="source ~/Library/Mobile\ Documents/com~apple~CloudDocs/bot-dev/venv/bin/activate; cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/bot-dev"
 ## ssh
-alias hackintosh="ssh ducle@27.64.21.204 -p 13285"
-alias hackintoshlan="ssh ducle@192.168.1.2"
-alias ubuntu="ssh jarvis@27.64.21.204 -p 13287"
-alias ubuntulan="ssh jarvis@192.168.1.8"
+alias hackintosh="ssh ducle@myhomepc -p 13285"
+alias hackintoshlan="ssh ducle@myhackintosh"
+alias ubuntu="ssh jarvis@myhomepc -p 13287"
+alias ubuntulan="ssh jarvis@myubuntu"
 alias burp="cd ~/burp_suite_pro_v2020.11.2; java --illegal-access=permit -Dfile.encoding=utf-8 -javaagent:BurpSuiteLoader_v2020.11.2.jar -noverify -jar burpsuite_pro_v2020.11.2.jar"
 
 
