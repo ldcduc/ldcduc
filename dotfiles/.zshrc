@@ -120,8 +120,8 @@ alias journal="cd ~/.repos/journal"
 alias leet="cd ~/.repos/leetcode-training"
 alias sol='bash ~/.repos/leetcode-training/create_source_code_file.sh'
 alias tutor="cd ~/Tutoring-2020"
-alias english="cd /Users/ducle/.repos/journal/Learning_Languages/English"
-alias chinese="cd /Users/ducle/.repos/journal/Learning_Languages/Chinese"
+alias english="cd ~/.repos/journal/Learning_Languages/English"
+alias chinese="cd ~/.repos/journal/Learning_Languages/Chinese"
 ## Open with apps
 alias md="macdown"
 alias chrome="open -a 'Google Chrome'"

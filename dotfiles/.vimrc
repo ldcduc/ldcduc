@@ -164,6 +164,10 @@ nnoremap <leader>zv :vsp ~/.zshrc<CR>
 nnoremap <leader>s :mksession<CR>
 nnoremap <leader>S :mksession!<CR>
 
+" replace “ and ” to "
+nnoremap <leader>oquote :%s/“/"/g<CR>
+nnoremap <leader>cquote :%s/”/"/g<CR>
+
 
 
 
