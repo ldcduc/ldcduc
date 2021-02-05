@@ -107,6 +107,8 @@ nnoremap <space> /
 nnoremap <nul> ?
 " turn off search highlight
 nnoremap <silent> <leader><cr> :noh<cr>
+" count token under the cursor
+nnoremap <leader>* *<C-O>:%s///gn<CR>
 
 " highlight last inserted text
 nnoremap gV `[v`]
@@ -168,9 +170,6 @@ nnoremap <leader>S :mksession!<CR>
 nnoremap <leader>oquote :%s/“/"/g<CR>
 nnoremap <leader>cquote :%s/”/"/g<CR>
 
-
-
-
 " --- FUNCTION ---
 
 function! MyTabCompletion()
@@ -231,6 +230,14 @@ function! SortLines() range
     execute a:firstline . "," . a:lastline . 'sort n'
     execute a:firstline . "," . a:lastline . 's/^\d\+\s//'
 endfunction
+ 
+function! CountPatternInline(pattern)
+    let result = execute (".s/" . a:pattern. "//gn")
+    return result
+endfunction
+
+nnoremap <leader>duc :let j=execute(".s/#//gn")<CR>
+nnoremap <leader>ab "=j<CR>Pj
 
 
 autocmd FileType cpp    call CPPSET()
