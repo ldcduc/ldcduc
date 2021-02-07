@@ -126,6 +126,7 @@ alias chinese="cd ~/.repos/journal/Learning_Languages/Chinese"
 alias md="macdown"
 alias chrome="open -a 'Google Chrome'"
 alias safari="open -a 'Safari'"
+alias vscode="open -a 'Visual Studio Code'"
 ## Chatting
 alias shitpost="safari https://discord.com/channels/786607287074029589/786609740243009547"
 alias em="safari https://www.facebook.com/messages/t/100010143877666/"
