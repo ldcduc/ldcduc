@@ -55,6 +55,7 @@ set nrformats=
 set wildmenu      " visual autocomplete for command menu
 set lazyredraw    " redraw only when we need to --> faster macro
 set showmatch     " highlight matching [{()}]
+set clipboard=unnamedplus
 "
 " --- \Tab related stuffs ---
 set shiftwidth=4 softtabstop=4 expandtab
@@ -225,6 +226,10 @@ function! HTMLSET()
   nnoremap <buffer> <F9> :w<cr>:!open %<cr>
 endfunction
 
+function! JAVASCRIPTSET()
+  nnoremap <buffer> <F9> :w<cr>:!node %<cr>
+endfunction
+
 function! SortLines() range
     execute a:firstline . "," . a:lastline . 's/^\(.*\)$/\=strdisplaywidth( submatch(0) ) . " " . submatch(0)/'
     execute a:firstline . "," . a:lastline . 'sort n'
@@ -240,12 +245,13 @@ nnoremap <leader>duc :let j=execute(".s/#//gn")<CR>
 nnoremap <leader>ab "=j<CR>Pj
 
 
-autocmd FileType cpp    call CPPSET()
-autocmd FileType c      call CSET()
-autocmd FileType java   call JAVASET()
-autocmd FileType ruby   call RUBYSET()
-autocmd FileType python call PYTHONSET()
-autocmd FileType html   call HTMLSET()
+autocmd FileType cpp           call CPPSET()
+autocmd FileType c             call CSET()
+autocmd FileType java          call JAVASET()
+autocmd FileType ruby          call RUBYSET()
+autocmd FileType python        call PYTHONSET()
+autocmd FileType html          call HTMLSET()
+autocmd FileType javascript    call JAVASCRIPTSET()
 
 " ----- jistr/vim-nerdtree-tabs -----
 "  Open/close NERDTree Tabs with \t
