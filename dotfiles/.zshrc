@@ -149,14 +149,11 @@ alias py2="python2"
 alias py3="python3"
 alias bot="source ~/Library/Mobile\ Documents/com~apple~CloudDocs/bot-dev/venv/bin/activate; cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/bot-dev"
 ## ssh
-alias hackintosh="ssh ducle@myhomepc -p 13285"
+alias hackintosh="ssh ducle@myhomepc -p 13282"
 alias hackintoshlan="ssh ducle@myhackintosh"
-alias ubuntu="ssh jarvis@myhomepc -p 13287"
+alias ubuntu="ssh jarvis@myhomepc -p 13292"
 alias ubuntulan="ssh jarvis@myubuntu"
 alias burp="cd ~/burp_suite_pro_v2020.11.2; java --illegal-access=permit -Dfile.encoding=utf-8 -javaagent:BurpSuiteLoader_v2020.11.2.jar -noverify -jar burpsuite_pro_v2020.11.2.jar"
-
-
-
 
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
