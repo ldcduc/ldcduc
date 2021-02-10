@@ -1,4 +1,5 @@
-# for MacOS only
+#!/bin/bash
+# for macOS
 [ "$1" == "true" ] && flag=true || flag=false
 echo $flag
 defaults write com.apple.finder CreateDesktop $flag
