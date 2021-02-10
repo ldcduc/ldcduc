@@ -55,7 +55,6 @@ set nrformats=
 set wildmenu      " visual autocomplete for command menu
 set lazyredraw    " redraw only when we need to --> faster macro
 set showmatch     " highlight matching [{()}]
-set clipboard=unnamedplus
 "
 " --- \Tab related stuffs ---
 set shiftwidth=4 softtabstop=4 expandtab
