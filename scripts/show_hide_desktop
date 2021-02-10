@@ -1,6 +1,14 @@
 #!/bin/bash
-# for macOS
-[ "$1" == "true" ] && flag=true || flag=false
-echo $flag
+# script for show/hide desktop icon in macos
+# to show: $ bash show_hide_desktop true
+# to hide: $ bash show_hide_desktop false
+#      or: $ chmod +x show_hide_desktop; ./show_hide_desktop
+[ "$1" == "true" ] && {
+    flag=true 
+    echo "Shown" 
+} || { 
+    flag=false 
+    echo "Hidden"
+}
 defaults write com.apple.finder CreateDesktop $flag
 killall Finder
