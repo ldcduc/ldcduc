@@ -105,7 +105,6 @@ source $ZSH/oh-my-zsh.sh
 alias zshrc="vim ~/.zshrc; source ~/.zshrc; cp ~/.zshrc ~/.repos/ldcduc/dotfiles"
 alias vimrc="vim ~/.vimrc; cp ~/.vimrc ~/.repos/ldcduc/dotfiles"
 alias nvimrc="nvim ~/.config/nvim/init.vim; cp ~/.config/nvim/init.vim ~/.repos/ldcduc/dotfiles/.config/nvim"
-alias nvimswap="cd ~/.local/share/nvim/swap"
 alias karabiner="vim ~/.config/karabiner/karabiner.json; cp ~/.config/karabiner/karabiner.json ~/.repos/ldcduc/dotfiles/.config/karabiner/karabiner.json"
 alias etchosts="sudo vim /etc/hosts"
 ## Commands
