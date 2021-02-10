@@ -6,6 +6,9 @@ I'm Duc Le.
 
 ## My projects  
 
+* [ldcduc]()
+    * [dotfiles](https://github.com/ldcduc/ldcduc/tree/main/dotfiles)
+    * [scripts](https://github.com/ldcduc/ldcduc/tree/main/scripts)
 * [LeetCode Training](https://github.com/ldcduc/leetcode-training)
 * [Today I Learned](https://github.com/ldcduc/today-I-learned)
 

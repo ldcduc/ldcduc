@@ -1,5 +1,5 @@
 #!/bin/bash
-# script for show/hide desktop icon in macos
+# script for show/hide desktop icon in macOS
 # to show: $ bash show_hide_desktop true
 # to hide: $ bash show_hide_desktop false
 #      or: $ chmod +x show_hide_desktop; ./show_hide_desktop
