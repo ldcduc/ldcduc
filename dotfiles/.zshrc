@@ -140,7 +140,7 @@ alias lovevs="cp ~/Library/Mobile\ Documents/com~apple~CloudDocs/love.md ~/Libra
 # alias love="cp ~/OneDrive/love.md ~/OneDrive/.bk_love.md; macdown ~/OneDrive/love.md"
 # alias lovev="cp ~/OneDrive/love.md ~/OneDrive/.bk_love.md; vim ~/OneDrive/love.md"
 alias 2021="macdown ~/.repos/journal/my-2021.md"
-alias 2021v="vim ~/.repos/journal/my-2021.md"
+alias 2021v="nvim ~/.repos/journal/my-2021.md"
 alias 2021vs="open -a 'Visual Studio Code' ~/.repos/journal/my-2021.md"
 ## Temporary
 alias efi="cd ~/.repos/ldcduc/hackintosh/EFI\ testing/CLOVER"
