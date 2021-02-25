@@ -9,9 +9,10 @@ I'm Duc Le.
 * [ldcduc]()
     * [dotfiles](https://github.com/ldcduc/ldcduc/tree/main/dotfiles)
     * [scripts](https://github.com/ldcduc/ldcduc/tree/main/scripts)
-    * [web-security-training](https://github.com/ldcduc/web-security-training)
 * [LeetCode Training](https://github.com/ldcduc/leetcode-training)
 * [Today I Learned](https://github.com/ldcduc/today-I-learned)
+* [Web Security Training](https://github.com/ldcduc/web-security-training) (currently private)
+* [Competitive Programming References](https://github.com/ldcduc/competitive-programming-references.git)
 
 ## My github
 
