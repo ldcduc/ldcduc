@@ -13,8 +13,7 @@ I'm Duc Le.
 * [Today I Learned](https://github.com/ldcduc/today-I-learned)
 * [Web Security Training](https://github.com/ldcduc/web-security-training) (currently private)
 * [Competitive Programming References](https://github.com/ldcduc/competitive-programming-references.git)
-* [chuky.su](https://github.com/ldcduc/chukysu)
-
+* [chuky.su](https://github.com/ldcduc/chukysu) (currently private)
 
 ## My github
 
